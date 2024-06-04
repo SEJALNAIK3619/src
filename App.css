@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: "Poppins", sans-serif;
+}
+header {
+width: 100%;
+height:90px;
+/* border: 1px solid blue; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 3%;
+}
+header img{
+width: 150px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: auto 8px;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+/* services */
+.Service-container{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Services-container .Services-Box1{
+width: 20%;
+min-height: 600px;
+box-shadow: 2px 0px 1px 2px;
+
+}
+.Services-container .Services-Box1 ul{
+
+}
+
+.Services-container .Services-Box1 ul li{}
+
+.Services-container .Services-box2{
+
+    width: 77%;
+    min-height:600px;
+  
+}
+
+/* Login */
+form{
+    max-width: 400px;
+    min-height: 300px;
+    box-shadow: 0px 0px 3px 0px;
+    margin: 30px auto;
+}
+
+form label{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px;
+    padding-top:20px;
+    margin-left:8%;
+}
+form input{
+    display: block;
+    width: 85%;
+    height: 42px;
+    margin: auto;
+
+
+}
+form button{
+    
+    width: 120px;
+    height: 42px;
+    border: none;
+    background-color:aquamarine; 
+    border-radius:8% ;
+    padding-top:20px;
+}
+/* product */
+.product-container{
+    max-width: 1320px;
+    height: auto;
+    margin: 30px auto;
+  }
+  .product-container .product-box{
+    width: 290px;
+    height: 300px;
+    box-shadow: 0px 0px 3px 0px black;
+    float: left;
+    margin: 20px;
+  }
+  .product-container .product-box img{
+    width: 290px;
+    height: 220px;
+  }
+  
