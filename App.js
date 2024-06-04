@@ -5,7 +5,7 @@ import Contacus from './Component/Contacus';
 import Header from './Component/Header';
 import Home from './Component/Home';
 import Page404 from './Component/Logis';
-import Product from './Component/Product';
+import Products from './Component/Products';
 import Services from './Component/Services';
 import Aboutus from './Component/Aboutus';
 import Web from './Component/Web';
@@ -25,13 +25,12 @@ function App() {
       <Route path="web" element={<Web/>}/>
       <Route path="mobile" element={<Mobile/>}/>
      </Route>
-    
-    <Route path="Singleproduct:/name" element={<Singleproduct/>}/>
+     <Route path="Products" element={<Products/>}/>
+    <Route path="Singleproduct/:name" element={<Singleproduct/>}/>
     <Route path="Aboutus" element={<Aboutus/>}/>
         <Route path="Blog" element={<Blog/>}/>
     <Route path="Contactus" element={<Contacus/>}/>
     <Route path="Logis" element={<Logis/>}/>
-    <Route path="Singleproduct" element={<Singleproduct/>}/>
     {/* <Route path="Login" element={<Login/>}/> */}
          </Routes>
  </BrowserRouter>

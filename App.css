@@ -79,8 +79,6 @@ form input{
     width: 85%;
     height: 42px;
     margin: auto;
-
-
 }
 form button{
     
@@ -93,6 +91,7 @@ form button{
 }
 /* product */
 .product-container{
+
     max-width: 1320px;
     height: auto;
     margin: 30px auto;
@@ -109,3 +108,31 @@ form button{
     height: 220px;
   }
   
+  /* single-product */
+  .single-product-container{
+    display:flex;
+    justify-content: space-between;
+  }
+  .single-product-container .single-product-image{
+    width:60%;
+    height: auto;
+  }
+  .single-product-container .single-product-image img{
+   width:100%
+  }
+  .single-product-container.single-product-dec{
+    width:30%;
+    height: auto;
+}
+.container1{
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid blue;
+}
+.container1 .Box1{
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border: 1px solid black;
+}
